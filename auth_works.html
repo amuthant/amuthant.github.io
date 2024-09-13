@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works-Auth</title>
+    <link rel="stylesheet" href="auth_works.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html#home">
+            <img class="at_logo" src="images/at_logo.svg" alt="AT Logo">
+        </a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#works">Works</a></li>
+                <li><a href="index.html#blogs">Blogs</a></li>
+                <li><a href="index.html#snippets">Snippets</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#">
+            <button type="button">Resume</button>
+        </a>
+        <div class="menu-toggle">
+            <div class="menu-bar"></div>
+        </div>
+    </header>
+
+    <main>
+        
+        <section class="work_header_section">
+
+            <p class="heading">Seamless Authentication App: Crafted with Jetpack Compose & Designed in Figma</p>
+            <p class="subheading">Created an authentication app using Jetpack Compose involves several steps, 
+                including designing the UI, managing state, handling user input, and integrating authentication logic. 
+            </p>
+            <p class="subheading">Below is a high-level overview of how to structure an authentication app using Jetpack Compose.</p>
+
+            
+        </section>
+
+        <section class="work_banner_section">
+
+            <img class="rectangle_banner_img" src="images/auth_banner.png" alt="Valorant">
+
+        </section>
+        
+        <section class="work_technology_section">
+
+            <p class="work_technology_lable">Technologies Used :</p>
+            <div class="work_technology_list">
+                <div class="list">Figma</div>
+                <div class="list">Jetpack Compose</div>
+                <div class="list">Kotlin</div>
+                <div class="list">Rest API</div>
+            </div>
+
+            <hr />
+            
+        </section>
+
+        <section class="work_summary_section">
+
+            <p class="heading">The idea is to build an app effectively using Jetpack Compose for simplify UI</p>
+            <p class="subheading">The authentication app consists of a login and registration interface, 
+                state management for handling user input, and integration with an authentication service. 
+                The app follows a clean architecture with the ViewModel managing the logic, and Jetpack Compose is used for designing the UI.
+            </p>
+                
+            <div class="list_group">
+                <div class="list_item"><b>1. Jetpack Compose UI:</b> A declarative approach to creating UI components like login and registration screens.</div>
+                <div class="list_item"><b>2. State Management:</b> Use ViewModel and StateFlow (or LiveData) to manage the state of user inputs, loading, and error states.</div>
+                <div class="list_item"><b>3. Authentication:</b> Authentication is integrated to handle user login and registration.</div>
+                <div class="list_item"><b>4. Navigation:</b> NavController handles transitions between screens like login, registration, and home after successful authentication.</div>
+                <div class="list_item"><b>5. Error Handling:</b> Ensure proper feedback is given to the user for invalid input or failed authentication attempts.</div>
+            </div>
+            
+        </section>
+        <section class="work_image_section">
+
+            <img class="rectangle_image_img" src="images/auth_flow_diagram.png" alt="Valorant">
+
+        </section>
+        
+
+        <section class="work_summary_two_section">
+
+            <p class="heading"># Flow Architecture
+            </p>
+                
+            <div class="list_group">
+                <div class="list_item"><b>1. User interacts:</b> with the login screen, entering their credentials.</div>
+                <div class="list_item"><b>2. ViewModel:</b> manages the input, processes the login or registration request, and communicates with the backend or Firebase for authentication.</div>
+                <div class="list_item"><b>3. </b> Upon successful authentication, the app navigates to the home screen; otherwise, it <b>displays errors.</b></div>
+                
+            </div>
+            <p class="subheading">This architecture ensures a clean separation of UI and business logic, 
+                and is scalable for future features like social logins or 
+                biometric authentication.
+            </p>
+        </section>
+
+        <section class="work_screenshot_section">
+
+            <div class="work_screenshot_list">
+
+                <img class="rectangle_mobile_screenshot_img" src="images/auth_sign_in.png" alt="Valorant">
+                <img class="rectangle_mobile_screenshot_img" src="images/auth_sign_up.png" alt="Valorant">
+
+            </div>
+            
+        </section>
+
+        <section id="contacts">
+            <div class="desktop-20">
+                <div class="contacts_title">
+                    <h1 class="contacts_heading">
+                        <span class="highlight">C</span>ontacts
+                    </h1>
+                </div>
+                <div class="about_me">
+                    <p class="about_me_heading">Amuthan Thennavan</p>
+                    <p class="about_me_subheading">Sr. Android Developer</p>
+                </div>
+
+                <div class="contact_me"></div>
+                    <p class="p_text_t1">amuthanthennavan@gmail.com</p>
+                    <p class="p_text_t1">+91-944-421-2569</p>
+                </div>
+
+                <hr />
+
+                <div class="rectangle-1342">
+                    <div class="home_social_media_logo">
+                        <img class="rectangle_img" src="icons/ic_linkedin.svg" alt="Valorant">
+                        <img class="rectangle_img" src="icons/ic_github.svg" alt="Valorant">
+                        <img class="rectangle_img" src="icons/ic_behance.svg" alt="Valorant">
+                        <img class="rectangle_img" src="icons/ic_twitter.svg" alt="Valorant">
+                        <img class="rectangle_img" src="icons/ic_insta.svg" alt="Valorant">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

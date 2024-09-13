@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #141414; */
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+}
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #7A7A7A;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 17%;
+    background-color: #141414;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #4EFFEA;
+}
+
+.cta button {
+    padding: 9px 25px;
+    background-color: #4EFFEA;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #0B0B0B;
+}
+
+.cta button:hover {
+    background-color: #FFFFFF;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+.line {
+  width: 55px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 20px;
+  width: 100%;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin-top: 4%;
+}
+
+
+/*  */
+.work_header_section {
+  padding: 10% 20% 8% 20%;
+  /* background-color: #1C1C1C; */
+  align-content: center;
+  /* height: fit-content; */
+}
+
+.heading {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 1.333;
+  color: #FFFFFF;
+}
+
+.subheading {
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 1.333;
+  margin-top: 2%;
+  color: #FFFFFF;
+}
+
+.work_banner_section {
+  padding: 0% 18%;
+  /* background-color: #2F746C; */
+  background: linear-gradient(360deg, #2F746C, #141414);
+  align-content: center;
+  height: fit-content;
+}
+
+
+.rectangle_banner_img {
+  height: fit-content;
+  width: 1144px;
+  margin-bottom: -5px;
+}
+
+.work_technology_section {
+  padding: 4% 18%;
+  /* background-color: #1C1C1C; */
+  align-content: center;
+  /* height: fit-content; */
+}
+
+.work_technology_lable {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.333;
+  margin-bottom: 4%;
+  color: #FFFFFF;
+}
+
+
+.work_technology_list {
+  position: relative;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.list {
+  width: 280px;
+  margin-bottom: 32px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-size: 28px;
+  color: #D8D8D8;
+}
+
+
+.work_summary_section {
+  padding: 0% 18% 8% 18%;
+  /* background-color: #1C1C1C; */
+  align-content: center;
+  /* height: fit-content; */
+}
+
+.list_item{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 1.333;
+  margin: 1%;
+  color: #FFFFFF;
+}
+
+.list_group{
+  margin-top: 2%;
+}
+
+.work_image_section {
+  padding: 4% 18%;
+  background-color: #1c1c1c;
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically, optional */
+  height: fit-content;
+}
+
+.rectangle_image_img {
+  width: 700px; /* Specify width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: -5px; /* Adjust if needed */
+}
+
+.work_summary_two_section {
+  padding: 4% 18% 0% 18%;
+  /* background-color: #1C1C1C; */
+  align-content: center;
+  /* height: fit-content; */
+}
+
+.work_screenshot_section {
+  padding: 4% 18%;
+  background-color: #2F746C;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically, optional */
+  height: fit-content;
+}
+.work_screenshot_list {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+}
+.rectangle_mobile_screenshot_img {
+  height: 573px;
+  width: 252px;
+  margin-bottom: -5px;
+}
+
+.work_flow_section {
+  padding: 4% 18% 4% 18%;
+  /* background-color: #1C1C1C; */
+  align-content: center;
+  /* height: fit-content; */
+}
+.work_conclusion_section {
+  padding: 0% 18% 8% 18%;
+  /* background-color: #1C1C1C; */
+  align-content: center;
+  /* height: fit-content; */
+}
+
+
+
+
+
+
+    /* Contacts */
+    #contacts {
+      /* padding: 10px 18%; */
+      /* background-color: #1C1C1C; */
+      /* align-content: center; */
+      /* height: fit-content; */
+      padding: 4% 18%;
+      /* background-color: #1C1C1C; */
+      /* align-content: center; */
+      height: fit-content;
+    }
+  
+    .contacts_title {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+    
+    
+    .contacts_main_content {
+      display: flex;
+      align-items: center;
+      /* justify-content: center; */
+      /* margin-top: 5%; */
+      
+      gap: 40px;
+      width: 100%;
+    }
+
+    .contacts_heading {
+      font-family: 'Montserrat';
+      font-weight: 700;
+      font-size: 46px;
+      line-height: 1.333;
+      color: #FFFFFF;
+      margin-bottom: 2%;
+      /* width: 550px; */
+    }
+    .contact_me{
+      
+      margin-top: 6%;
+    }
+
+    .p_text_t1 {
+      font-family: 'IBM Plex Mono';
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 1.333;
+      color: #FFFFFF;
+    }
+    .p_text_t2 {
+      font-family: 'IBM Plex Mono';
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 1.333;
+      color: #4EFFEA;
+    }
+
+    .highlight {
+      font-family: 'Montserrat Alternates';
+      font-weight: 700;
+      font-size: 60px;
+      color: #4EFFEA;
+    }
+    
+.home_social_media_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 80px;
+  width: 100%;
+}
