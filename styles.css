@@ -987,7 +987,10 @@ hr {
 
 /* Tablet (768px - 1024px) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  
+  .heading {
+    font-size: 36px;
+    /* Slightly smaller for tablets */
+  }
   .home_para {
     margin-bottom: 12px;
     overflow-wrap: break-word;
@@ -1072,11 +1075,18 @@ hr {
     vertical-align: top;
     flex-shrink: 0;
   }
+
+  .stats {
+    gap: 36px;
+  }
 }
 
 /* Small Desktop/Laptop (1080px - 1265px) */
 @media only screen and (min-width: 1025px) and (max-width: 1265px) {
-  
+  .heading {
+    font-size: 36px;
+    /* Slightly smaller for tablets */
+  }
   .home_para {
     margin-bottom: 12px;
     overflow-wrap: break-word;
@@ -1162,6 +1172,9 @@ hr {
     flex-shrink: 0;
   }
 
+  .stats {
+    gap: 36px;
+  }
 
 }
 
@@ -1169,7 +1182,10 @@ hr {
 
 /* Small Desktop/Laptop (1266px - 1366px) */
 @media only screen and (min-width: 1266px) and (max-width: 1366px) {
-
+  .heading {
+    font-size: 36px;
+    /* Slightly smaller for tablets */
+  }
   .home_para {
     margin-bottom: 24px;
     overflow-wrap: break-word;
@@ -1255,6 +1271,10 @@ hr {
     object-fit: contain;
     vertical-align: top;
     flex-shrink: 0;
+  }
+
+  .stats {
+    gap: 36px;
   }
 
 
@@ -1262,7 +1282,10 @@ hr {
 
 /* Medium Desktop/Laptop (1367px - 1600px) */
 @media only screen and (min-width: 1367px) and (max-width: 1600px) {
-  
+  .heading {
+    font-size: 36px;
+    /* Slightly smaller for tablets */
+  }
   .home_para {
     margin-bottom: 24px;
     overflow-wrap: break-word;
@@ -1348,6 +1371,10 @@ hr {
     object-fit: contain;
     vertical-align: top;
     flex-shrink: 0;
+  }
+
+  .stats {
+    gap: 36px;
   }
 }
 
