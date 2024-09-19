@@ -709,6 +709,11 @@ hr {
   color: #FFFFFF;
 }
 
+.link_row {
+  gap: 3220px;
+  width: 100%;
+}
+
 /* Contacts */
 #contacts {
   /* padding: 10px 18%; */
