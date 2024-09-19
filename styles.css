@@ -992,21 +992,27 @@ hr {
     padding: 0px 12px;
   }
 
-  li, a, button {
+  li,
+  a,
+  button {
     font-size: 12px;
-}
+  }
+
   .heading {
     font-size: 24px;
     /* Slightly smaller for tablets */
   }
+
   .home_para {
     margin-bottom: 12px;
     overflow-wrap: break-word;
   }
-  .rectangle_img{
+
+  .rectangle_img {
     max-width: 186px;
     margin-bottom: 20px;
   }
+
   .group-301 {
     position: relative;
     margin: 0 0 0 60px;
@@ -1087,6 +1093,7 @@ hr {
   .stats {
     gap: 24px;
   }
+
   .stat-value {
     font-size: 38px;
   }
@@ -1094,18 +1101,33 @@ hr {
 
 /* Small Desktop/Laptop (1080px - 1265px) */
 @media only screen and (min-width: 1025px) and (max-width: 1265px) {
+
+  .nav__links li {
+    display: inline-block;
+    padding: 0px 12px;
+  }
+
+  /* li,
+  a,
+  button {
+    font-size: 12px;
+  } */
+  
   .heading {
     font-size: 28px;
     /* Slightly smaller for tablets */
   }
+
   .home_para {
     margin-bottom: 12px;
     overflow-wrap: break-word;
   }
-  .rectangle_img{
+
+  .rectangle_img {
     max-width: 208px;
     margin-bottom: 20px;
   }
+
   .group-301 {
     position: relative;
     margin: 0 0 0 80px;
@@ -1186,6 +1208,7 @@ hr {
   .stats {
     gap: 24px;
   }
+
   .stat-value {
     font-size: 42px;
   }
@@ -1199,12 +1222,13 @@ hr {
     font-size: 32px;
     /* Slightly smaller for tablets */
   }
+
   .home_para {
     margin-bottom: 24px;
     overflow-wrap: break-word;
   }
 
-  .rectangle_img{
+  .rectangle_img {
     max-width: 256px;
     margin-bottom: 20px;
   }
@@ -1269,7 +1293,7 @@ hr {
     line-height: 1.333;
     color: #4EFFEA;
   }
-  
+
   .subheading {
     font-family: 'Montserrat';
     font-weight: 200;
@@ -1289,6 +1313,7 @@ hr {
   .stats {
     gap: 24px;
   }
+
   .stat-value {
     font-size: 48px;
   }
@@ -1302,12 +1327,13 @@ hr {
     font-size: 36px;
     /* Slightly smaller for tablets */
   }
+
   .home_para {
     margin-bottom: 24px;
     overflow-wrap: break-word;
   }
 
-  .rectangle_img{
+  .rectangle_img {
     max-width: 256px;
     margin-bottom: 20px;
   }
@@ -1372,7 +1398,7 @@ hr {
     line-height: 1.333;
     color: #4EFFEA;
   }
-  
+
   .subheading {
     font-family: 'Montserrat';
     font-weight: 200;
