@@ -987,12 +987,95 @@ hr {
 
 /* Tablet (768px - 1024px) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  body {
-    font-size: 18px;
+  
+  .home_para {
+    margin-bottom: 12px;
+    overflow-wrap: break-word;
+  }
+  .rectangle_img{
+    max-width: 186px;
+    margin-bottom: 20px;
+  }
+  .group-301 {
+    position: relative;
+    margin: 0 0 0 60px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+
+  .text_t1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.333;
+    color: #FFFFFF;
+  }
+
+  .text_t2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.333;
+    color: #4EFFEA;
+  }
+
+  .android-developer {
+    margin: 0 10.5px;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 22px;
+    color: #FFFFFF;
+  }
+
+  .p_text_t1 {
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.333;
+    color: #FFFFFF;
+  }
+
+  .p_text_t2 {
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.333;
+    color: #4EFFEA;
+  }
+
+  .p_text_t2_big {
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.333;
+    color: #4EFFEA;
+  }
+
+  .subheading {
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 1.333;
+    color: #FFFFFF;
+  }
+
+  .figma_logo {
+    width: 18px;
+    height: 16px;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
   }
 }
+
 /* Small Desktop/Laptop (1080px - 1265px) */
-@media only screen and (min-width: 1080px) and (max-width: 1265px) {
+@media only screen and (min-width: 1025px) and (max-width: 1265px) {
   
   .home_para {
     margin-bottom: 12px;
