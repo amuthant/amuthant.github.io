@@ -987,6 +987,14 @@ hr {
 
 /* Tablet (768px - 1024px) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .nav__links li {
+    display: inline-block;
+    padding: 0px 12px;
+  }
+
+  li, a, button {
+    font-size: 12px;
+}
   .heading {
     font-size: 24px;
     /* Slightly smaller for tablets */
