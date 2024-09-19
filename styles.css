@@ -988,7 +988,7 @@ hr {
 /* Tablet (768px - 1024px) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .heading {
-    font-size: 36px;
+    font-size: 24px;
     /* Slightly smaller for tablets */
   }
   .home_para {
@@ -1063,13 +1063,13 @@ hr {
   .subheading {
     font-family: 'Montserrat';
     font-weight: 200;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.333;
     color: #FFFFFF;
   }
 
   .figma_logo {
-    width: 18px;
+    width: 8px;
     height: 16px;
     object-fit: contain;
     vertical-align: top;
@@ -1077,14 +1077,17 @@ hr {
   }
 
   .stats {
-    gap: 36px;
+    gap: 24px;
+  }
+  .stat-value {
+    font-size: 38px;
   }
 }
 
 /* Small Desktop/Laptop (1080px - 1265px) */
 @media only screen and (min-width: 1025px) and (max-width: 1265px) {
   .heading {
-    font-size: 36px;
+    font-size: 28px;
     /* Slightly smaller for tablets */
   }
   .home_para {
@@ -1159,13 +1162,13 @@ hr {
   .subheading {
     font-family: 'Montserrat';
     font-weight: 200;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.333;
     color: #FFFFFF;
   }
 
   .figma_logo {
-    width: 18px;
+    width: 12px;
     height: 18px;
     object-fit: contain;
     vertical-align: top;
@@ -1173,9 +1176,11 @@ hr {
   }
 
   .stats {
-    gap: 36px;
+    gap: 24px;
   }
-
+  .stat-value {
+    font-size: 42px;
+  }
 }
 
 
@@ -1183,7 +1188,7 @@ hr {
 /* Small Desktop/Laptop (1266px - 1366px) */
 @media only screen and (min-width: 1266px) and (max-width: 1366px) {
   .heading {
-    font-size: 36px;
+    font-size: 32px;
     /* Slightly smaller for tablets */
   }
   .home_para {
@@ -1274,7 +1279,10 @@ hr {
   }
 
   .stats {
-    gap: 36px;
+    gap: 24px;
+  }
+  .stat-value {
+    font-size: 48px;
   }
 
 
